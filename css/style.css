@@ -1,0 +1,261 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	/* color: #000; */
+	/* font-family:""; */
+	font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+.our-impact {
+	background-color: #2AB1AD;
+	padding: 112px 0;
+}
+.main__our-impact {
+	margin-bottom: 30px;
+}
+.our-impact__container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.our-impact__header {
+	margin: 0px 0px 80px 0px;
+	color: #fff;
+}
+.header-items {
+	max-width: 583px;
+}
+.header-items__title {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	/* or 200% */
+	
+	display: flex;
+	align-items: center;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	margin: 0px 0px 30px 0px;
+	padding: 0px 0px 0px 35px;
+	background: url('../img/icons/Overline_Mark.svg') 0 -2px no-repeat;
+}
+.header-items__sub-title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+}
+.our-impact__body {
+	font-size: 0;
+}
+.body-our-impact {
+}
+.body-our-impact__column {
+	display: inline-block;
+	width: 100%;
+	max-width: 25%;
+	font-size: 14px;
+	color: #fff;
+	padding: 0px 24px 0px 0px;
+}
+.body-our-impact__img {
+	width: 76px;
+	margin: 0px 11px 0px 0px;
+}
+.body-our-impact__body {
+	display: inline-block;
+	max-width: 150px;
+}
+.body-our-impact__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+}
+.body-our-impact__text {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+}
+
+
+.contact {
+}
+.contact_container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.contact_item {
+	max-width: 237px;
+	margin: 0px 0px 0px auto;
+}
+.contact__title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 22px;
+	/* identical to box height, or 157% */
+	
+	letter-spacing: 0.15px;
+	
+	/* /Neutral/Gray 1 */
+	
+	color: #4B4B4B;
+	margin: 0px 0px 28px 0px;
+}
+.contact__list {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	/* or 143% */
+	
+	letter-spacing: 0.15px;
+	
+	/* /Neutral/Gray 1 */
+	
+	color: #4B4B4B;
+}
+ul {
+}
+.contact__list li {
+	margin: 0px 0px 16px 0px;
+	padding-left: 16px;
+}
+li::before{
+	content: "";
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	margin-left: -16px;
+}
+li:nth-child(1)::before{
+	content: "";
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	vertical-align:top;
+	background: url('../img/list/place_24px.svg') 0 2px no-repeat;
+}
+li:nth-child(2)::before{
+	content: "";
+	display: inline-block;
+	height: 17px;
+	width: 16px;
+	vertical-align:top;
+	background: url('../img/list/smartphone_24px.svg') 0 2px no-repeat;
+}
+li:nth-child(3)::before{
+	content: "";
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	vertical-align:top;
+	background: url('../img/list/email_24px.svg') 0 2px no-repeat;
+}
+li:nth-child(4)::before{
+	content: "";
+	display: inline-block;
+	height: 17px;
+	width: 16px;
+	vertical-align:top;
+	background: url('../img/list/timer_24px.svg') 0 2px no-repeat;
+}
+.list-contact {
+}
+
+.our-services {
+	background-color: #F5F5F5;
+	padding: 110px 0px 110px 0px;
+}
+.our-services__container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.our-services__header {
+	margin-bottom: 80px;
+}
+.header-items {
+}
+.header-items__title {
+}
+.header-items__title_red {
+	background: url('../img/icons/Overline_red.svg') 0 -2px no-repeat;
+}
+.header-items__sub-title {
+}
+.our-services_column {
+	background-color: #fff;
+	margin-bottom: 24px;
+	max-width: 33.33%;
+	border-radius: 10px;
+}
+.our-services_column:hover {
+	box-shadow: 0 16px 24px #9e9e9e;
+}
+.column-our-services {
+	padding: 50px 44px;
+}
+.column-our-services__img {
+	max-width: 63px;
+	margin: 0 auto 33px;
+}
+.column-our-services__title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	text-align: center;
+	color: #02133C;
+	margin-bottom: 20px;
+}
+.column-our-services__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+}
